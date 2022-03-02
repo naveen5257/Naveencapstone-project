@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Product Naveen Is Created Successfully]]>
+    </line>
+    <line>
+      <![CDATA[ the  Corporate work Schedule is downloaded succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Invited Message Is Displyed Succesfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20481" started-at="2022-03-02T19:02:14 IST" finished-at="2022-03-02T19:02:35 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20481" started-at="2022-03-02T19:02:14 IST" finished-at="2022-03-02T19:02:35 IST">
+      <class name="Tasks_ModulePage.TC_001Test">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:Tasks_ModulePage.TC_001Test@34c4973]" name="openTheBrowser" is-config="true" duration-ms="3030" started-at="2022-03-02T19:02:14 IST" finished-at="2022-03-02T19:02:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:Tasks_ModulePage.TC_001Test@34c4973]" name="loginToApplication" is-config="true" duration-ms="6626" started-at="2022-03-02T19:02:17 IST" finished-at="2022-03-02T19:02:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Product Naveen Is Created Successfully]]>
+            </line>
+            <line>
+              <![CDATA[ the  Corporate work Schedule is downloaded succesfully]]>
+            </line>
+            <line>
+              <![CDATA[Invited Message Is Displyed Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="ToAddnewtask()[pri:0, instance:Tasks_ModulePage.TC_001Test@34c4973]" name="ToAddnewtask" duration-ms="10005" started-at="2022-03-02T19:02:24 IST" finished-at="2022-03-02T19:02:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToAddnewtask -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:Tasks_ModulePage.TC_001Test@34c4973]" name="closeTheBrowser" is-config="true" duration-ms="760" started-at="2022-03-02T19:02:34 IST" finished-at="2022-03-02T19:02:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- Tasks_ModulePage.TC_001Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
